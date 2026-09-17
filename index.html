@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BioSupply - Insumos médicos y productos para el cuidado de la salud.">
+<title>BioSupply | Insumos médicos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#inicio"><span class="leaf">◢</span><span>Bio<span>Supply</span><small>INSUMOS MÉDICOS</small></span></a>
+    <button id="menuBtn" class="menu">☰</button>
+    <nav id="nav">
+      <a class="active" href="#inicio">Inicio</a><a href="#productos">Catálogo</a>
+      <a href="#categorias">Soluciones</a><a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Envíos</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="search"><span>⌕</span><input id="search" placeholder="Buscar productos..."></div>
+    <button id="cartBtn" class="cart">🛒 <b id="cartCount">0</b></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">BIO SUPPLY</p>
+      <h1>Insumos médicos<br><strong>de confianza</strong></h1>
+      <p>Calidad, seguridad y disponibilidad para tu centro médico, clínica o negocio.</p>
+      <a class="cta" href="#productos">Ver catálogo <span>→</span></a>
+      <div class="benefits">
+        <div>◉ <span><b>Productos</b><small>originales</small></span></div>
+        <div>▣ <span><b>Envíos a</b><small>todo el Perú</small></span></div>
+        <div>▤ <span><b>Pagos seguros</b><small>y confiables</small></span></div>
+      </div>
+    </div>
+    <div class="hero-photo"><img src="cloruro-sodio.jpg" alt="Cloruro de Sodio 0.9%"></div>
+  </div>
+</section>
+
+<section class="categories" id="categorias">
+<div class="container category-grid">
+  <button data-filter="Soluciones">♧<span>Soluciones</span></button>
+  <button data-filter="Jeringas">⌁<span>Jeringas</span></button>
+  <button data-filter="Alcoholes">♙<span>Alcoholes</span></button>
+  <button data-filter="Todos">✚<span>Insumos</span></button>
+  <button data-filter="Todos">▣<span>Equipos</span></button>
+  <button data-filter="Todos">✦<span>Cuidado y más</span></button>
+</div>
+</section>
+
+<section class="products container" id="productos">
+  <div class="heading"><div><p class="eyebrow">CATÁLOGO</p><h2>Productos destacados</h2></div><button id="allBtn">Ver todo el catálogo →</button></div>
+  <div class="grid" id="productGrid"></div>
+</section>
+
+<section class="trust">
+<div class="container trust-grid">
+  <div><b>✓</b><span><strong>Productos de calidad</strong><small>Marcas reconocidas</small></span></div>
+  <div><b>▱</b><span><strong>Envíos a todo el Perú</strong><small>Rápido y seguro</small></span></div>
+  <div><b>▣</b><span><strong>Múltiples medios de pago</strong><small>Transferencia, Yape, Plin</small></span></div>
+  <div><b>♧</b><span><strong>Asesoría personalizada</strong><small>Estamos para ayudarte</small></span></div>
+</div>
+</section>
+
+<section class="about container" id="nosotros">
+  <p class="eyebrow">BIO SUPPLY</p><h2>Cuidamos lo que más importa.</h2>
+  <p>Encuentra productos e insumos para el cuidado de la salud con atención personalizada.</p>
+</section>
+
+<section class="contact container" id="contacto">
+  <div><p class="eyebrow">¿NECESITAS AYUDA?</p><h2>Haz tu consulta</h2><p>Consulta precios, disponibilidad y opciones de envío.</p></div>
+  <a class="whatsapp" href="#" id="contactWhatsapp">💬 Pedidos por WhatsApp</a>
+</section>
+</main>
+
+<footer><div class="container footer-grid">
+  <div><div class="brand footer-brand"><span class="leaf">◢</span><span>Bio<span>Supply</span><small>INSUMOS MÉDICOS</small></span></div></div>
+  <div><h4>Enlaces</h4><a href="#inicio">Inicio</a><a href="#productos">Catálogo</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></div>
+  <div><h4>Contáctanos</h4><p>☎ +51 999 999 999</p><p>✉ ventas@biosupply.pe</p><p>⌖ Lima, Perú</p></div>
+  <div><h4>Síguenos</h4><p class="social">●　◎　♪</p></div>
+</div><div class="copyright">© <span id="year"></span> BioSupply. Todos los derechos reservados.</div></footer>
+
+<aside id="cartPanel" class="cart-panel"><div class="cart-head"><h2>Tu pedido</h2><button id="closeCart">✕</button></div><div id="cartItems"></div><button id="orderWhatsapp" class="whatsapp full">Enviar pedido por WhatsApp</button></aside><div id="overlay"></div>
+<script src="script.js"></script>
+</body></html>
