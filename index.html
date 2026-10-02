@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BioSupply Perú | Catálogo</title>
+<title>BioSupply Perú | Material médico y de laboratorio</title>
+<meta name="description" content="Guantes, catéteres, gasas, soluciones e insumos de infusión para clínicas y laboratorios en Perú. Cotiza por WhatsApp.">
+<meta name="theme-color" content="#087dbb">
+<meta property="og:title" content="BioSupply Perú | Material médico y de laboratorio">
+<meta property="og:image" content="guantes.png">
+<link rel="icon" href="logo.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,8 +22,8 @@
       <a href="#nosotros">Nosotros</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="wa-top" href="https://wa.me/51936062268" target="_blank">WhatsApp</a>
-    <button class="hamburger" id="hamburger">☰</button>
+    <a class="wa-top" href="https://wa.me/51936062268" target="_blank" rel="noopener">WhatsApp</a>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">☰</button>
   </div>
 </header>
 
@@ -31,7 +36,7 @@
     <p>Productos para profesionales, clínicas, laboratorios e instituciones. Cotiza fácil y rápido por WhatsApp.</p>
     <div class="hero-buttons">
       <a class="btn" href="#catalogo">Ver catálogo <span>↓</span></a>
-      <a class="btn secondary" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20cotizar." target="_blank">Cotizar ahora</a>
+      <a class="btn secondary" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20cotizar." target="_blank" rel="noopener">Cotizar ahora</a>
     </div>
     <div class="stats">
       <div><b class="counter" data-target="5">0</b><small>Categorías</small></div>
@@ -84,14 +89,14 @@
     <span class="eyebrow white">¿NECESITAS UNA COTIZACIÓN?</span>
     <h2>Hablemos por WhatsApp</h2>
     <p>Consulta disponibilidad, presentaciones y precios.</p>
-    <a class="wa-big" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank">💬 936 062 268</a>
+    <a class="wa-big" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank" rel="noopener">💬 936 062 268</a>
   </div>
 </section>
 
 <section class="section about" id="nosotros">
   <div class="about-grid reveal">
     <div><span class="eyebrow">BIO SUPPLY PERÚ</span><h2>Calidad y confianza.</h2><p>Ofrecemos materiales e insumos médicos y de laboratorio con atención personalizada para ayudarte a encontrar lo que necesitas.</p></div>
-    <img src="volutrol.png" alt="BioSupply Perú">
+    <img loading="lazy" src="volutrol.png" alt="BioSupply Perú">
   </div>
 </section>
 </main>
@@ -104,7 +109,9 @@
   </div>
   <div class="copyright">© 2026 BioSupply Perú · Todos los derechos reservados.</div>
 </footer>
-<a class="floating" href="https://wa.me/51936062268" target="_blank">💬</a>
+<a class="floating" aria-label="Escríbenos por WhatsApp" href="https://wa.me/51936062268" target="_blank" rel="noopener">💬</a>
+
+<div class="quote-bar" id="quoteBar" role="status"><span id="quoteCount"></span><button id="quoteClear">Vaciar</button><a id="quoteSend" href="#" target="_blank" rel="noopener">Enviar por WhatsApp</a></div>
 
 <script src="app.js"></script>
 </body>
