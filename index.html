@@ -1,10 +1,111 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BioSupply Perú - materiales médicos y de laboratorio"><title>BioSupply Perú | Material médico y de laboratorio</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="nav"><a href="#inicio"><img src="logo.png" alt="BioSupply Perú"></a><nav><a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#catalogo">Catálogo</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav><a class="wa mini" href="https://wa.me/51936062268" target="_blank">WhatsApp</a></div></header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioSupply Perú | Catálogo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="header">
+  <div class="nav">
+    <a class="brand" href="#inicio"><img src="logo.png" alt="BioSupply Perú"></a>
+    <nav id="navLinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="wa-top" href="https://wa.me/51936062268" target="_blank">WhatsApp</a>
+    <button class="hamburger" id="hamburger">☰</button>
+  </div>
+</header>
+
 <main>
-<section id="inicio" class="hero"><div class="heroGrid"><div><span class="eyebrow">BIO SUPPLY PERÚ</span><h1>Material médico y de laboratorio <em>en un solo lugar.</em></h1><p>Productos para profesionales, clínicas, laboratorios e instituciones. Consulta disponibilidad y cotiza directamente por WhatsApp.</p><div class="actions"><a class="btn" href="#catalogo">Ver catálogo</a><a class="btn alt" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20cotizar%20un%20producto." target="_blank">Cotizar ahora</a></div><div class="trust">✓ Atención personalizada &nbsp; ✓ Envíos a todo el Perú &nbsp; ✓ Consulta de stock</div></div><div class="heroCard"><img src="guantes.png" alt="Productos BioSupply Perú"><b>Productos médicos</b><span>Consulta presentaciones y disponibilidad</span></div></div></section>
-<section id="categorias" class="section"><div class="wrap"><div class="title"><div><span class="eyebrow">EXPLORA</span><h2>Categorías</h2></div><p>Encuentra rápidamente el tipo de producto que necesitas.</p></div><div class="cats"><button data-cat="guantes">🧤<b>Guantes</b><small>Látex, nitrilo y más</small></button><button data-cat="cateteres">💉<b>Catéteres y accesos</b><small>Catéteres IV y accesorios</small></button><button data-cat="gasas">🩹<b>Gasas y apósitos</b><small>Estériles y no tejidas</small></button><button data-cat="soluciones">💧<b>Soluciones</b><small>Soluciones intravenosas</small></button><button data-cat="infusion">🧪<b>Infusión</b><small>Volutrol y venoclisis</small></button><button data-cat="todos">＋<b>Ver todo</b><small>Todos los productos</small></button></div></div></section>
-<section id="catalogo" class="section catalog"><div class="wrap"><div class="title"><div><span class="eyebrow">PRODUCTOS</span><h2>Catálogo</h2></div><input id="search" placeholder="Buscar producto..."></div><div class="filters"><button class="active" data-cat="todos">Todos</button><button data-cat="guantes">Guantes</button><button data-cat="cateteres">Catéteres</button><button data-cat="gasas">Gasas</button><button data-cat="soluciones">Soluciones</button><button data-cat="infusion">Infusión</button></div><div id="products" class="products"></div></div></section>
-<section class="promo"><div class="wrap promoGrid"><div><span class="eyebrow light">COTIZACIONES</span><h2>¿Buscas un producto específico?</h2><p>Escríbenos por WhatsApp para consultar disponibilidad, presentaciones y cotización.</p><a class="wa" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20cotizar%20un%20producto." target="_blank">💬 Cotizar por WhatsApp</a></div><strong>936 062 268</strong></div></section>
-<section id="nosotros" class="section"><div class="wrap about"><div><span class="eyebrow">BIO SUPPLY PERÚ</span><h2>Soluciones para el sector salud.</h2><p>Comercializamos materiales e insumos médicos y de laboratorio, facilitando la compra y cotización para profesionales e instituciones.</p><ul><li>🛡️ Atención confiable</li><li>📦 Envíos a todo el Perú</li><li>💬 Atención por WhatsApp</li></ul></div><img src="volutrol.png" alt="Productos médicos BioSupply Perú"></div></section>
-</main><footer id="contacto"><div class="foot"><div><img src="logo.png" alt="BioSupply Perú"><p>Materiales médicos y de laboratorio.</p></div><div><h4>Contacto</h4><a href="https://wa.me/51936062268">WhatsApp: 936 062 268</a><a href="mailto:contacto@biosupplyperu.com">contacto@biosupplyperu.com</a><span>Perú 🇵🇪</span></div><div><h4>Catálogo</h4><a href="#catalogo">Ver productos</a><a href="#categorias">Ver categorías</a></div></div><div class="copy">© 2026 BioSupply Perú · Todos los derechos reservados.</div></footer><a class="float" href="https://wa.me/51936062268" target="_blank">◉</a>
-<script>const P=[['guantes','Guantes de látex ALKHOFAR','Guantes de examen, ambidiestros y de un solo uso.','guantes.png','Tallas XS, S, M y L'],['cateteres','Catéter NIPRO 20G','Catéter intravenoso 20G (1,10 × 50 mm).','cateter.png','Color rosa · Consultar disponibilidad'],['soluciones','Cloruro de Sodio 0.9%','Solución inyectable por vía intravenosa.','soluciones.png','100, 250 y 500 mL'],['gasas','Gasa estéril ALKHOFAR','Gasa absorbente estéril para uso clínico.','gasas.png','Consultar tamaños y presentaciones'],['infusion','Equipo de Volutrol y Venoclisis','Equipo para administración de soluciones.','volutrol.png','Consultar disponibilidad'],['gasas','Gasas y apósitos','Gasas parafinadas y opciones no tejidas.','gasas.png','Varias presentaciones']];let C='todos';const E=document.getElementById('products'),S=document.getElementById('search');function render(){let q=S.value.toLowerCase().trim();let a=P.filter(p=>(C==='todos'||p[0]===C)&&(p[1]+' '+p[2]+' '+p[4]).toLowerCase().includes(q));E.innerHTML=a.map(p=>`<article><img src="${p[3]}" alt="${p[1]}"><div><small>${p[0]}</small><h3>${p[1]}</h3><p>${p[2]}</p><b>${p[4]}</b><a href="https://wa.me/51936062268?text=${encodeURIComponent('Hola BioSupply Perú, quiero cotizar: '+p[1])}" target="_blank">Consultar por WhatsApp →</a></div></article>`).join('')||'<div class="empty">No encontramos productos.</div>'}document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{C=b.dataset.cat;document.querySelectorAll('.filters button').forEach(x=>x.classList.toggle('active',x.dataset.cat===C));document.getElementById('catalogo').scrollIntoView({behavior:'smooth'});render()});S.oninput=render;render();</script></body></html>
+<section class="hero" id="inicio">
+  <div class="hero-orb orb1"></div><div class="hero-orb orb2"></div>
+  <div class="hero-content reveal">
+    <span class="badge">🇵🇪 BIO SUPPLY PERÚ</span>
+    <h1>Material médico y de laboratorio <span>en un solo lugar.</span></h1>
+    <p>Productos para profesionales, clínicas, laboratorios e instituciones. Cotiza fácil y rápido por WhatsApp.</p>
+    <div class="hero-buttons">
+      <a class="btn" href="#catalogo">Ver catálogo <span>↓</span></a>
+      <a class="btn secondary" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20cotizar." target="_blank">Cotizar ahora</a>
+    </div>
+    <div class="stats">
+      <div><b class="counter" data-target="5">0</b><small>Categorías</small></div>
+      <div><b>✓</b><small>Atención personalizada</small></div>
+      <div><b>🇵🇪</b><small>Envíos en Perú</small></div>
+    </div>
+  </div>
+  <div class="hero-product reveal delay">
+    <div class="floating-tag">✨ Productos disponibles</div>
+    <img src="guantes.png" alt="Productos BioSupply">
+  </div>
+</section>
+
+<section class="section" id="categorias">
+  <div class="section-head reveal">
+    <span class="eyebrow">EXPLORA</span><h2>Categorías</h2>
+    <p>Selecciona una categoría para filtrar el catálogo.</p>
+  </div>
+  <div class="categories">
+    <button class="category reveal" data-cat="guantes"><span>🧤</span><b>Guantes</b><small>Látex y más</small></button>
+    <button class="category reveal" data-cat="cateteres"><span>💉</span><b>Catéteres</b><small>Acceso vascular</small></button>
+    <button class="category reveal" data-cat="gasas"><span>🩹</span><b>Gasas y apósitos</b><small>Material estéril</small></button>
+    <button class="category reveal" data-cat="soluciones"><span>💧</span><b>Soluciones</b><small>Intravenosas</small></button>
+    <button class="category reveal" data-cat="infusion"><span>🧪</span><b>Infusión</b><small>Volutrol y equipos</small></button>
+  </div>
+</section>
+
+<section class="section catalog" id="catalogo">
+  <div class="section-head reveal">
+    <span class="eyebrow">CATÁLOGO</span><h2>Productos destacados</h2>
+    <p>Busca un producto o filtra por categoría.</p>
+  </div>
+  <div class="toolbar">
+    <div class="search">🔎 <input id="search" placeholder="Buscar producto..."></div>
+    <div class="filters">
+      <button class="filter active" data-cat="todos">Todos</button>
+      <button class="filter" data-cat="guantes">Guantes</button>
+      <button class="filter" data-cat="cateteres">Catéteres</button>
+      <button class="filter" data-cat="gasas">Gasas</button>
+      <button class="filter" data-cat="soluciones">Soluciones</button>
+      <button class="filter" data-cat="infusion">Infusión</button>
+    </div>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="cta" id="contacto">
+  <div class="cta-glow"></div>
+  <div class="reveal">
+    <span class="eyebrow white">¿NECESITAS UNA COTIZACIÓN?</span>
+    <h2>Hablemos por WhatsApp</h2>
+    <p>Consulta disponibilidad, presentaciones y precios.</p>
+    <a class="wa-big" href="https://wa.me/51936062268?text=Hola%20BioSupply%20Per%C3%BA,%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank">💬 936 062 268</a>
+  </div>
+</section>
+
+<section class="section about" id="nosotros">
+  <div class="about-grid reveal">
+    <div><span class="eyebrow">BIO SUPPLY PERÚ</span><h2>Calidad y confianza.</h2><p>Ofrecemos materiales e insumos médicos y de laboratorio con atención personalizada para ayudarte a encontrar lo que necesitas.</p></div>
+    <img src="volutrol.png" alt="BioSupply Perú">
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div><img src="logo.png" alt="BioSupply Perú"><p>Materiales médicos y de laboratorio.</p></div>
+    <div><h4>Contacto</h4><p>WhatsApp: 936 062 268</p><p>Perú 🇵🇪</p></div>
+    <div><h4>Enlaces</h4><a href="#catalogo">Catálogo</a><a href="#categorias">Categorías</a><a href="#contacto">Cotizar</a></div>
+  </div>
+  <div class="copyright">© 2026 BioSupply Perú · Todos los derechos reservados.</div>
+</footer>
+<a class="floating" href="https://wa.me/51936062268" target="_blank">💬</a>
+
+<script src="app.js"></script>
+</body>
+</html>
